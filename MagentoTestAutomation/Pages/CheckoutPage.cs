@@ -23,8 +23,7 @@ public class CheckoutPage
     private IWebElement CountryDropdown => _driver.FindElement(By.Name("country_id"));
     private IWebElement PhoneInput => _driver.FindElement(By.Name("telephone"));
     private IWebElement NextButton => _driver.FindElement(By.CssSelector("button[data-role='opc-continue']"));
-    private IWebElement ShippingMethodRadioButton => _driver.FindElement(By.CssSelector("input[name='shipping_method']"));
-    private IWebElement PlaceOrderButton => _driver.FindElement(By.CssSelector("button.action.primary.checkout"));
+    
 
     public void EnterDeliveryAddress(string firstName, string lastName, string street, string city, string state, string zip, string country, string phone)
     {
