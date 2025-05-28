@@ -37,7 +37,7 @@ public class MagentoPurchaseTests : IAsyncLifetime
         _driver.Navigate().GoToUrl("https://magento.softwaretestingboard.com/customer/account/login/");
 
         // 2. Login
-        _loginPage.Login("tuantran7@gmail.com", "c3guzxmLsGsD@@G");
+        _loginPage.Login("tuantran8@gmail.com", "c3guzxmLsGsD@@G");
 
         // 3. Mua 2 áo Jacket nam
         _driver.Navigate().GoToUrl("https://magento.softwaretestingboard.com/men/tops-men/jackets-men.html");
